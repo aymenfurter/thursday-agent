@@ -1,0 +1,25 @@
+# Build outputs
+/target/
+/helper/build/
+
+# Local credentials, preferences, and session data
+.env
+.env.*
+!.env.example
+!.env.*.example
+/config.json
+/config.json.*.tmp
+/thursday-config.json
+/thursday-config.json.*.tmp
+thursday-bridge.json
+thursday-bridge.json.*.tmp
+thursday-requests.json
+thursday-requests.json.*.tmp
+/.copilot/
+/.azure/
+
+# Logs and macOS metadata
+*.log
+*.log.*
+.DS_Store
+._*
