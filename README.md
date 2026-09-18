@@ -8,6 +8,10 @@ A macOS voice assistant that uses GPT-Live for conversation and GitHub Copilot
 workers to control apps, use browsers, work with files, and answer questions
 about your Copilot App sessions.
 
+## Architecture
+
+[![thursday-agent architecture: voice, Copilot workers, native helper, and app canvas](thursday-architecture.png)](thursday-architecture.png)
+
 ## Requirements
 
 macOS 14+, Rust and Cargo, Xcode command-line tools with Swift, Node.js with
